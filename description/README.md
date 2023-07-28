@@ -1,3 +1,4 @@
+#how to run the description files and visualize in rviz2
 cd to the parent folder of adr_base<br>
 source install/setup.bash<br>
 ros2 launch adr_base rsp.launch.py<br>
