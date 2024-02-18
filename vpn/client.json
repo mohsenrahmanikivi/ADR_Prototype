@@ -107,9 +107,9 @@
     {
       "type": "vless",
       "tag": "vless-p659116.kvmvps",
-      "server": "2.56.91.250",
-      "server_port": 49033,
-      "uuid": "18635711-3771-432b-9325-9d5d31e8f1fc",
+      "server": "2.56.91.230",
+      "server_port": 49590,
+      "uuid": "fe09c5ee-b5d4-4706-aa15-2beb717fe536",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -120,14 +120,14 @@
         },
       "reality": {
           "enabled": true,
-          "public_key": "K5uBjN_mHSoYFKOvbc1HtE1G_PUtBK9EvK4R1IInngE",
-          "short_id": "aecb2606"
+          "public_key": "JFTF-ONXl19L3H3qcgkqPVDfZj05Sytpue6CAMzXMTk",
+          "short_id": "ee88b969"
         }
       }
     },
 {
             "server": "vpn.projectadr.eu",
-            "server_port": 8443,
+            "server_port": 2083,
             "tag": "vmess-p659116.kvmvps",
             "tls": {
                 "enabled": true,
@@ -144,20 +144,20 @@
                         "vpn.projectadr.eu"
                     ]
                 },
-                "path": "18635711-3771-432b-9325-9d5d31e8f1fc-vm",
+                "path": "fe09c5ee-b5d4-4706-aa15-2beb717fe536-vm",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "18635711-3771-432b-9325-9d5d31e8f1fc"
+            "uuid": "fe09c5ee-b5d4-4706-aa15-2beb717fe536"
         },
 
     {
         "type": "hysteria2",
         "tag": "hy2-p659116.kvmvps",
         "server": "vpn.projectadr.eu",
-        "server_port": 40527,
-        "password": "18635711-3771-432b-9325-9d5d31e8f1fc",
+        "server_port": 48753,
+        "password": "fe09c5ee-b5d4-4706-aa15-2beb717fe536",
         "tls": {
             "enabled": true,
             "server_name": "vpn.projectadr.eu",
@@ -171,9 +171,9 @@
             "type":"tuic",
             "tag": "tuic5-p659116.kvmvps",
             "server": "vpn.projectadr.eu",
-            "server_port": 39781,
-            "uuid": "18635711-3771-432b-9325-9d5d31e8f1fc",
-            "password": "18635711-3771-432b-9325-9d5d31e8f1fc",
+            "server_port": 38133,
+            "uuid": "fe09c5ee-b5d4-4706-aa15-2beb717fe536",
+            "password": "fe09c5ee-b5d4-4706-aa15-2beb717fe536",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "udp_over_stream": false,
